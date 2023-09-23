@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <title>الفن السابع - 7Art</title>
+    </head>
+    <body>
+
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">الفن السابع</a>
+
+                </div>
+
+                <div  class="nav__menu" id="nav-menu" >
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">الرئيسية</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">من نحن</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">مشاركاتنا</a></li>
+                        <li class="nav__item"><a href="https://form.jotform.com/201766217187055" class="nav__link">انضم لنا</a></li>
+                        <li class="nav__item"><a href="#Scenes" class="nav__link">كواليس</a></li>
+                        <li class="nav__item"><a href="privacy.html" class="nav-link nav-singup">الشروط والأحكام</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="" id="menu"></i>
+                    <div class="" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                      </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data" dir="ltr">
+                        <img src="images/logo2.png" alt="7Art" class="logotext" >
+                    </div>
+
+                <div class="home__social">
+                </div>
+
+
+            </section>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">من نحن</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="autoimgmodels" style="max-width:500px">
+                        <img class="mySlidesphotos" src="images/1s.jpg"style="width:100%">
+                        <img class="mySlidesphotos" src="images/2s.jpg" style="width:100%">
+                        <img class="mySlidesphotos" src="images/3s.jpg" style="width:100%">
+                        <img class="mySlidesphotos" src="images/4s.jpg"style="width:100%">
+                        <img class="mySlidesphotos" src="images/5s.jpg"style="width:100%">
+
+
+                      </div>
+
+                    <div>
+                        <h2 class="about__subtitle">الفن السابع</h2>
+                        <p class="about__text">الفن السابع هي وكالة لتقديم الدعم اللوجستي والحلول الانتاجيه للمجال الاعلامي المرئي والمسموع والتي تمتد لأكثر من 10 سنوات من الخبره في هذا المجال.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">مشاركاتنا</h2>
+
+                    <h1></h1>
+
+                    <ul class="youtube_videos">
+                      <li class="youtube" id="z586Fy_O0BA"></li>
+                      <li class="youtube" id="5o_k2ieqmZ8"></li>
+                      <li class="youtube" id="LkNx-xFNmz0"></li>
+                      <li class="youtube" id="D6yWYyru4PY"></li>
+
+                    </ul>
+                    
+            </section>
+
+
+            <!--===== scene =====-->
+            <section class="scene section" id="Scenes">
+                <h2 class="section-title">كواليس</h2>
+
+                <ul class="youtube_videos">
+
+                    <li class="youtube" id="Z7GwqvQx5sY"></li>
+                    <li class="youtube" id="SPvsmAUUC2Q"></li>
+                    <li class="youtube" id="Ok2wseqY8Nk"></li>
+                    <li class="youtube" id="wOaUlKU5AXY"></li>
+                  </ul>
+            </section>
+
+            
+            <!--===== CONTACT =====-->
+            <section class="contact section" >
+                <h2 class="section-title">تواصل معنا</h2>
+
+                <div class="contact__container bd-grid">
+                        <form id="contact-form" method="post" action="assets/php/contact-form-handler.php">
+                            <input type="text" name="name" class="name" placeholder="الأسم" required="">
+                            <input type="email" class="email" name="email" placeholder="البريد الالكتروني" required="">
+                          <input type="tel" class="tel" name="phonenumber" placeholder="رقم الهاتف مثال : 0000 000 050" required="" maxlength="10">    
+                            <textarea name="textarea" class="message" placeholder="الموضوع" required=""></textarea>
+                           
+                            <button class="btnsend">
+                                <i class='bx bx-send'></i>
+                                <span class="text">
+                                  Send Message
+                                </span>
+                                <span class="loading-animate"></span>
+                              </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+<div class="whatsappicon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://wa.me/966501782227" class="float" target="_blank" >
+        <span class="floatText"> تواصل معنا</span>
+        <i class="fa fa-whatsapp my-float" ></i>
+        </a>
+    </div>
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            
+            <img src="images/logo2.png" alt="7Art" class="logofooter" >        
+                <div class="footer__social">
+                <a href="https://wa.me/966501782227" target="_blank" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="https://instagram.com/7artapp" target="_blank" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/7artapp" target="_blank" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+
+            </div>
+
+            <p>&#169; جميع الحقوق محفوظة لـ الفن السابع © 2020</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
